@@ -1,0 +1,123 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 16px;
+}
+
+body{
+    padding: 20px;
+    background-color: hsl(204, 43%, 93%);
+}
+
+h2, h4, p{
+    margin:0;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+#card{
+    width: 600px;
+    height: 380px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35) ;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#top-section{
+    width: 100%;
+    height: 45%;
+    padding: 25px;
+}
+
+#bottom-section{
+    width: 100%;
+    height: 55%;
+}
+
+#bottom-left-section, #bottom-right-section{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    color: white;
+    padding: 25px;
+}
+
+#bottom-left-section{
+    background-color: hsl(179, 62%, 43%);
+}
+
+#bottom-right-section{
+    background-color: hsl(179, 58%, 61%);
+}
+
+#top-section h2{
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 20px;
+}
+
+#top-section h4{
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 10px;
+}
+
+#top-section p {
+    color: hsl(218, 22%, 67%);
+}
+
+button{
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(71, 70%, 43%);
+    transform: scale(1.02);
+}
+
+#price{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+#bottom-left-section h4{
+    margin-bottom: 25px;
+}
+
+#price-frequency, #price{
+    display: inline-block;
+}
+
+#price-container{
+    margin-bottom: 10px;
+}
+
+#price-frequency{
+    position: relative;
+    top: -3px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-left: 5px; 
+}
+
+#bottom-left-section p{
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+}
+
+ul{
+    padding: 0px;
+    list-style: none;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    line-height: 18px;
+}
+
+/* Brakuje wersji mobilnej */
