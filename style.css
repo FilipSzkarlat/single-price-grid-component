@@ -24,6 +24,7 @@ h2, h4, p{
     border-radius: 5px;
     overflow: hidden;
     background-color: white;
+    margin: auto;
 }
 
 #top-section{
@@ -120,4 +121,9 @@ ul{
     line-height: 18px;
 }
 
-/* Brakuje wersji mobilnej */
+@media (max-width: 650px){
+    #bottom-left-section, #bottom-right-section, #card{
+        width: 100%;
+        height: auto;
+    }
+}
